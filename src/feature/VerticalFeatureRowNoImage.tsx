@@ -1,5 +1,4 @@
 import className from 'classnames';
-import { useRouter } from 'next/router';
 
 type IVerticalFeatureRowNoImageProps = {
   title: string;

@@ -1,8 +1,5 @@
 import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
-import { HeroOneButton } from '../hero/HeroOneButton';
-import Link from 'next/link';
-import { Button } from '../button/Button';
 import { Background } from '@/background/Background';
 import { VerticalFeatureRowNoImage } from '@/feature/VerticalFeatureRowNoImage';
 
