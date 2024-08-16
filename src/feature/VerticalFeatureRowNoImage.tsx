@@ -17,8 +17,6 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
     },
   );
 
-  const router = useRouter();
-
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full text-center">
