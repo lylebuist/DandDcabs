@@ -19,5 +19,4 @@ module.exports = withBundleAnalyzer({
       '/': { page: '/' },
     };
   },
-  exportTrailingSlash: true,
 });
