@@ -4,7 +4,7 @@ module.exports = {
     fontFamily: {
       sans: ['Impact'],
       serif: ['serif'],
-                mono: ['monospace'],
+      mono: ['monospace'],
     },
     fontSize: {
       xs: '0.75rem',
@@ -50,4 +50,3 @@ module.exports = {
   },
   plugins: [],
 };
-

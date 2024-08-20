@@ -1,12 +1,12 @@
-import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
-import { Section } from '../layout/Section';
 import { Background } from '@/background/Background';
 import { VerticalFeatureRowNoImage } from '@/feature/VerticalFeatureRowNoImage';
 
+import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
+import { Section } from '../layout/Section';
+
 const VerticalFeatures = () => (
   <Background color="bg-stone-200">
-    <Section
-      >
+    <Section>
       <VerticalFeatureRow
         title="About Us"
         description="We are a local, family owned business based in Kirriemuir. Born and bred in Kirriemuir, we guarentee an expert knowledge of the town and the surrounding area."
@@ -27,9 +27,7 @@ const VerticalFeatures = () => (
         imageAlt="Second feature alt text"
         reverse
       />
-      <VerticalFeatureRowNoImage
-        title="Hear From Previous Customers"
-      />
+      <VerticalFeatureRowNoImage title="Hear From Previous Customers" />
     </Section>
   </Background>
 );
