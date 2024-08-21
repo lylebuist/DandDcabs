@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      sans: ['Impact Regular'],
+      sans: ['Impact'],
       serif: ['serif'],
       mono: ['monospace'],
     },
