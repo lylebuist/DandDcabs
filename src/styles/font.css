@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Impact';
+    font-family: 'Impact Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Impact'), url('impact.woff') format('woff');
+    src: local('Impact Regular'), url('impact.woff') format('woff');
     }
     
 
