@@ -24,11 +24,11 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-base {
-            @apply text-lg font-semibold py-2 px-4;
+            @apply text-lg py-3 px-5;
           }
 
           .btn-xl {
-            @apply font-extrabold text-xl py-4 px-6;
+            @apply text-5xl py-3 px-5;
           }
 
           .btn-primary {
