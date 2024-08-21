@@ -21,7 +21,7 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
       <div className="w-full text-center">
         <h3 className="text-4xl text-gray-900">{props.title}</h3>
         <div className="pt-10 text-2xl">
-          <div style={{ float: 'left', width: '332px' }}>
+          <div style={{ float: 'left', width: '512px' }}>
             <p className="w-full">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
             <p className="w-full text-2xl">
               I had a very long travel from Edinburgh Airport to Kirriemuir via
@@ -34,7 +34,7 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
             </p>
             <p className="w-full text-xl">-Briony Palmgreen</p>
           </div>
-          <div style={{ float: 'left', width: '332px' }}>
+          <div className="px-5" style={{ float: 'left', width: '512px' }}>
             <p className="w-full ">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
             <p className="w-full text-2xl">
               Wonderful experience. Lovely driver and always arrived early. Took
@@ -43,7 +43,7 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
             </p>
             <p className="w-full text-xl">-Chloe Alexandra Hardwick</p>
           </div>
-          <div style={{ float: 'left', width: '332px' }}>
+          <div style={{ float: 'left', width: '512px' }}>
             <p className="w-full">&#11088;&#11088;&#11088;&#11088;&#11088;</p>
             <p className="w-full text-2xl">
               Excellent prompt service. I now use Donald all the time for my
