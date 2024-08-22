@@ -28,7 +28,7 @@ export default function NavbarTwoColumns(props: INavbarProps) {
 
           <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
             <div
-              className="CROSS-ICON absolute right-0 top-0 p-8"
+              className="CROSS-ICON absolute right-0 top-0 p-2"
               onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
             >
               <svg
@@ -62,7 +62,7 @@ export default function NavbarTwoColumns(props: INavbarProps) {
         display: block;
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 40vh;
         top: 0;
         left: 0;
         background: white;
