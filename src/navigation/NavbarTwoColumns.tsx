@@ -11,11 +11,11 @@ export default function NavbarTwoColumns(props: INavbarProps) {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (
-    <div className="flex items-center justify-between border-b border-gray-400 py-8">
+    <div className="flex items-center justify-between border-b border-gray-400 py-1">
       <div className="px-6">
         <Link href="/">{props.logo}</Link>
       </div>
-      <nav className="px-8">
+      <nav className="pr-8">
         <section className="MOBILE-MENU flex lg:hidden">
           <div
             className="HAMBURGER-ICON space-y-2"
