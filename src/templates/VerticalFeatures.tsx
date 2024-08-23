@@ -9,7 +9,7 @@ const VerticalFeatures = () => (
     <Section>
       <VerticalFeatureRow
         title="About Us"
-        description="We are a local, family owned business based in Kirriemuir. Born and bred in Kirriemuir, we guarentee an expert knowledge of the town and the surrounding area."
+        description="We are a local, family owned business based in Kirriemuir. Born and bred in Kirriemuir, we guarentee an expert knowledge of the town and the surrounding area. Book us at 07765-256881"
         image="car.jpg"
         imageAlt="Third feature alt text"
         reverse
