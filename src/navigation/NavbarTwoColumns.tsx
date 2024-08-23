@@ -50,7 +50,7 @@ export default function NavbarTwoColumns(props: INavbarProps) {
           </div>
         </section>
 
-        <ul className="navbar hidden items-center px-8 text-xl text-gray-800 lg:flex">
+        <ul className="navbar hidden items-center text-xl font-medium text-gray-800 lg:flex">
           {props.children}
         </ul>
       </nav>
