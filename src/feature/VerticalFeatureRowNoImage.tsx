@@ -32,7 +32,6 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
               stranded. Will definitely use your services again when I need to
               visit my gran in the future.
             </p>
-            <p className="text-xl">-Briony Palmgreen</p>
           </div>
           <div className="p-5">
             <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
@@ -41,7 +40,6 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
               a massive weight off our shoulders as we were getting a taxi from
               a pretty remote area.
             </p>
-            <p className="text-xl">-Chloe Alexandra Hardwick</p>
           </div>
           <div>
             <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
@@ -52,7 +50,6 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
               my flights, Good rates and friendly conversations. Would highly
               recommend his services, 10 out of 10
             </p>
-            <p className="text-xl">-Brian Ramage</p>
           </div>
         </div>
       </div>
