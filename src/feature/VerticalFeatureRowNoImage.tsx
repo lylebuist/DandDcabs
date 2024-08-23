@@ -21,7 +21,7 @@ const VerticalFeatureRowNoImage = (props: IVerticalFeatureRowNoImageProps) => {
       <div className="w-full text-center">
         <h3 className="text-4xl text-gray-900">{props.title}</h3>
         <div className="pt-10 text-2xl">
-          <div className="">
+          <div className="text-center">
             <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
             <p className="text-2xl">
               I had a very long travel from Edinburgh Airport to Kirriemuir via
