@@ -12,7 +12,7 @@ export default function NavbarTwoColumns(props: INavbarProps) {
 
   return (
     <div className="flex max-w-screen-2xl items-center justify-between border-b border-gray-400 py-1">
-      <div className="pr-3">
+      <div className="">
         <Link href="/">{props.logo}</Link>
       </div>
       <nav className="pr-4">
