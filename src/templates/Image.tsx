@@ -9,13 +9,13 @@ const Image = () => (
       <div className="text-centre" style={{ textAlign: 'center' }}>
         <h1
           style={{ display: 'inline' }}
-          className="whitespace-pre-line pr-1 text-center text-6xl italic leading-hero text-red-800"
+          className="whitespace-pre-line text-center text-6xl italic leading-hero text-red-800"
         >
           {'D'}
         </h1>
         <h1
           style={{ display: 'inline' }}
-          className="whitespace-pre-line text-center text-3xl leading-hero text-red-800"
+          className="whitespace-pre-line text-center text-3xl italic leading-hero text-red-800"
         >
           {'&'}
         </h1>

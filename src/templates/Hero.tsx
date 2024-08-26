@@ -20,10 +20,10 @@ const Hero = () => (
           </Link>
         </li>
         <li className="px-3">
-          <Link href="tel:07765-256881">Call Us - 07765-256881</Link>
+          <Link href="tel:07765-256881">Call - 07765-256881</Link>
         </li>
         <li>
-          <Link href="">Email - ddcabskirrie@gmail.com</Link>
+          <Link href="">ddcabskirrie@gmail.com</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
