@@ -9,14 +9,14 @@ const VerticalFeatures = () => (
     <Section>
       <VerticalFeatureRow
         title="About Us"
-        description="We are a local, family owned taxi business based in Kirriemuir. Born and bred in Kirriemuir, we guarentee an expert knowledge of the town and the surrounding area. Book us at 07765-256881"
+        description="We are a local, family owned taxi business based in Kirriemuir. Born and bred in Kirriemuir, we guarantee an expert knowledge of the town and the surrounding area. Book us at 07765-256881"
         image="car.jpg"
         imageAlt="Third feature alt text"
         reverse
       />
       <VerticalFeatureRow
         title="Our Team"
-        description="We offer a team of experienced, fully licnenced drivers and can ensure a quality service. With over 35 years of driving experience, we are the most qualified for the job."
+        description="We offer a team of experienced, fully licnenced drivers and can ensure a quality service. With over 35 years of professional driving experience, we are the most qualified for the job."
         image="car2.jpg"
         imageAlt="First feature alt text"
       />
