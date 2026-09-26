@@ -6,42 +6,15 @@ type IButtonProps = {
 };
 
 const Button = (props: IButtonProps) => {
-  const btnClass = className({
-    btn: true,
-    'btn-xl': props.xl,
-    'btn-base': !props.xl,
-    'btn-primary': true,
-  });
-
-  return (
-    <div className={btnClass}>
-      {props.children}
-
-      <style jsx>
-        {`
-          .btn {
-            @apply inline-block rounded-md text-center;
-          }
-
-          .btn-base {
-            @apply text-lg py-3 px-5;
-          }
-
-          .btn-xl {
-            @apply text-5xl py-3 px-5;
-          }
-
-          .btn-primary {
-            @apply text-white bg-red-800;
-          }
-
-          .btn-primary:hover {
-            @apply bg-red-900;
-          }
-        `}
-      </style>
-    </div>
+  const btnClass = className(
+    'inline-flex items-center justify-center rounded-md text-center font-normal text-white bg-red-800 transition-colors duration-200 hover:bg-red-900',
+    {
+      'text-base py-2.5 px-4': !props.xl,
+      'text-xl py-3 px-6': props.xl,
+    },
   );
+
+  return <div className={btnClass}>{props.children}</div>;
 };
 
 export { Button };
